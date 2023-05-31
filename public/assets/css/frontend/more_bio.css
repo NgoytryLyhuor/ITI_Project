@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Hanuman !important;
+}
+.header{
+    height: 60px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* bio_layout */
+.bio_layout{
+    height: 500px;
+}
+.bio_layout_side{
+    width: 49.5%;
+    height: 100%;
+    border-radius: 10px;
+}
+.bio_layout img{
+    filter: brightness(0.4);
+}
+.bio_layout_top{
+    width: 100%;
+    height: 48.5%;
+    float: left;
+    border-radius: 10px;
+}
+.bio_layout_bottom{
+    width: 100%;
+    margin-top: 15px;
+    float: left;
+    height: 48.5%;
+    border-radius: 10px;
+}
+.bio_layout_bottom_side{
+    width: 49%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bio_layout_details{
+    width: 97%;
+}
+.bio_layout_details h1{
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    line-height: 3.9rem;
+    font-weight: 600;
+}
+.bio_layout_top .bio_layout_details h1,.bio_layout_bottom_side .bio_layout_details h1{
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    line-height: 3.9rem;
+    font-weight: 600;
+}
+.bio_layout_left img, .bio_layout_top img, .bio_layout_bottom_side img{
+    transition: 0.2s;
+}
+.bio_layout_left:hover img, .bio_layout_top:hover img, .bio_layout_bottom_side:hover img{
+    transform: scale(1.1);
+}
+
+.com_box{
+    height: 315px;
+}
+.com_box .box{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.26) 0px 4px 12px;
+}
+.com_img{
+    height: 180px;
+}
+.com_details{
+    color: #4b5563;
+}   
+.com_details span{
+    font-size: 12px;
+    background-color: #d9d9d9;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+.com_details p{
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.com_box{
+    transition: 0.2s;
+}
+.com_box:hover{
+    transform: scale(1.04);
+}
+
+
+/* footer */
+.footer{
+    background-color: #009cd5;
+    padding-bottom: 20px !important;
+}
+.footer a {
+    transition: 0.2s;
+    font-size: 16px;
+}
+.footer li:hover a{
+    letter-spacing: 1px;
+    color: #006489 !important;
+    text-decoration: underline !important;
+}
+.end p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.end a:hover{
+    color: #009cd5 !important;
+    text-decoration: underline !important;
+}
