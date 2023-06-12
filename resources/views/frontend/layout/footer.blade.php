@@ -29,7 +29,7 @@
             <div class="col-4 mt-5">
                 <h3 class="text-white mb-4 text-end">Contact Us</h3>
                 <ul class="list-unstyled text-end">
-                    <li><a class="text-white" href="tel:+85570231331">Mobile : 023 883 039</a></li>
+                    <li><a class="text-white" href="tel:+85523883039">Mobile : 023 883 039</a></li>
                     <li><a class="text-white" href="mailto:itikhmer@gmail.com">Email : itikhmer@gmail.com</a></li>
                     <li><a class="text-white" href="https://maps.app.goo.gl/1D4CrskBUPug6EfX6?g_st=ic">Address : Russian Blvd, Sangkat Teukthal, Khan Sensok Phnom Penh, Cambodia 12102</a></li>
                 </ul>

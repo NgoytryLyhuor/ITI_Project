@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="{{ asset("assets/css/font.css") }}">
     <!-- Icons Css -->
     <link href="{{ asset("assets/css/icons.min.css") }}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.8.0/leaflet.css" />
+    <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel='stylesheet' />
 </head>
 <body>
     
@@ -62,8 +64,6 @@
         <h5>បេសកកម្ម</h5>
         <p>សាកលវិទ្យាល័យគ្រប់គ្រង និងសេដ្ឋកិច្ច ប្តេជ្ញានឹងអភិវឌ្ឍធនធានមនុស្សឱ្យមានជំនាញ វិជ្ជាជីវៈនិង ការសិក្សាស្រាវជ្រាវ ច្បាស់លាស់ប្រកបដោយគុណភាព នឹងមានសមត្ថភាព គ្រប់គ្រាន់ ដើម្បីចូលរួមលើក កំពស់សេដ្ឋកិច្ចរស់នៅ និងកិត្យានុភាពប្រទេសជាតិ តាមរយៈការអប់រំ និង កិច្ចសហប្រតិបត្តិការលើឆាកជាតិ-អន្តរជាតិផ្អែកលើគោលការណ៍សន្តិភាព អភិបាលកិច្ចល្អនិងអហឹង្សា ធម៌ជាមូលដ្ឋាន ។</p>
         <h5>គោលបំណង</h5>
-
-
         
         <ul>
             <li>បង្កើនចំណេះដឹងផ្នែកការងារគ្រប់គ្រង អភិបាលកិច្ច គណនេយ្យភាព និងតម្លាភាព លើវិស័យអប់រំថ្នាក់ឧត្តមសិក្សា</li>
@@ -78,11 +78,58 @@
 
     </div>
 
-    <div class="container w-75 mt-3 bg-secondary plan">
-        <h1>University Strategy Plan</h1>
+    <div class="container w-75 mt-3 plan">
+        
     </div>
-    <div class="container w-75 mt-3 bg-info contact">
-        <h1>Contact Us</h1>
+    <div class="container w-75 mt-3 contact">
+        <div class="container-fluid p-0 map">
+            <div id="map" style="width: 100%;height: 500px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.783578178429!2d104.87766309999999!3d11.567366800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951733d2c60c9%3A0x9b53bf739cffdfd6!2sIndustrial%20Technical%20Institute%20(ITI)!5e0!3m2!1sen!2s!4v1685606496161!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="container-fluid p-0 mt-3">
+            <div class="row">
+                <div class="col-4">
+                    <a href="https://maps.app.goo.gl/1D4CrskBUPug6EfX6?g_st=ic">
+                        <div class="container contact_box d-flex align-items-center justify-content-center">
+                            <div class="container">
+                                <center>
+                                    <i class="ri-map-pin-line" style="font-size: 50px;color: #009cd5"></i>
+                                </center>
+                                <h4 class="text-center">Address Line</h4>
+                                <h6 class="text-center text-secondary">Russian Blvd, Sangkat Teukthal, Khan Sensok Phnom Penh, Cambodia 12102</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="tel:+85523883039">
+                        <div class="container contact_box d-flex align-items-center justify-content-center">
+                            <div class="container">
+                                <center>
+                                    <i class="ri-phone-line" style="font-size: 50px;color: #009cd5"></i>
+                                </center>
+                                <h4 class="text-center">Phone Number</h4>
+                                <h6 class="text-center text-secondary">023 883 039</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="mailto:itikhmer@gmail.com">
+                        <div class="container contact_box d-flex align-items-center justify-content-center">
+                            <div class="container">
+                                <center>
+                                    <i class=" ri-mail-send-line" style="font-size: 50px;color: #009cd5"></i>
+                                </center>
+                                <h4 class="text-center">Mail Address</h4>
+                                <h6 class="text-center text-secondary">itikhmer@gmail.com</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -94,6 +141,9 @@
 <!-- JAVASCRIPT -->
 <script src="{{ asset("assets/libs/node-waves/waves.min.js") }}"></script>
 <script src="{{ asset("assets/js/jquery.js") }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.8.0/leaflet.js"></script>
+<script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.17/leaflet-maplibre-gl.js"></script>
 
 
 <script>

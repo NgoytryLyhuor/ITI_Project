@@ -21,5 +21,7 @@ Route::controller(FrontendController::class)->group(function(){
     Route::get('/student/login','student_login')->name('student_login');
     Route::get('/student/register','student_register')->name('student_register');
     Route::get('/about_us','about_us')->name('about_us');
+    Route::get('/department','department')->name('department');
+
 
 });

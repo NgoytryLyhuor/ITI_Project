@@ -26,7 +26,7 @@
         </div>
         <div class="container-fluid d-flex justify-content-center mt-2">
             <div class="text-center">
-                <h4>វិទ្យាស្ថានបច្ចេកវិទ្យាឧស្សាហកម្ម</h4>
+                <h4>វិទ្យាស្ថានបច្ចេកទេសឧស្សាហកម្ម</h4>
                 <h6>Industrial Technical Institute</h6>
             </div>
         </div>

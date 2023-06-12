@@ -51,47 +51,28 @@
                 <div class="col-4 mb-3">
                     <a href="">
                         <div class="container-fluid Academics_box d-flex align-items-center">
-                            <p class="m-0 text-dark">Foundation Studies Department</p>
+                            <p class="m-0 text-dark">ព័ត៌មានវិទ្យា</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-4 mb-3">
                     <a href="">
                         <div class="container-fluid Academics_box d-flex align-items-center">
-                            <p class="m-0 text-dark">Foundation Studies Department</p>
+                            <p class="m-0 text-dark">រថយន្ត</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-4 mb-3">
                     <a href="">
                         <div class="container-fluid Academics_box d-flex align-items-center">
-                            <p class="m-0 text-dark">Foundation Studies Department</p>
+                            <p class="m-0 text-dark">បរិក្ខាត្រជាក់</p>
                         </div>
                     </a>
                 </div>
                 <div class="col-4 mb-3">
                     <a href="">
                         <div class="container-fluid Academics_box d-flex align-items-center">
-                            <p class="m-0 text-dark">Foundation Studies Department</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4 mb-3">
-                    <a href="">
-                        <div class="container-fluid Academics_box d-flex align-items-center">
-                            <p class="m-0 text-dark">Foundation Studies Department</p>
-                        </div>
-                    </a>
-                </div><div class="col-4 mb-3">
-                    <a href="">
-                        <div class="container-fluid Academics_box d-flex align-items-center">
-                            <p class="m-0 text-dark">Foundation Studies Department</p>
-                        </div>
-                    </a>
-                </div><div class="col-4 mb-3">
-                    <a href="">
-                        <div class="container-fluid Academics_box d-flex align-items-center">
-                            <p class="m-0 text-dark">Foundation Studies Department</p>
+                            <p class="m-0 text-dark">លោហៈ</p>
                         </div>
                     </a>
                 </div>

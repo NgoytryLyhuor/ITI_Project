@@ -26,90 +26,39 @@
         </div>
         <div class="container-fluid d-flex justify-content-center mt-2">
             <div class="text-center">
-                <h4>វិទ្យាស្ថានបច្ចេកវិទ្យាឧស្សាហកម្ម</h4>
+                <h4>វិទ្យាស្ថានបច្ចេកទេសឧស្សាហកម្ម</h4>
                 <h6>Industrial Technical Institute</h6>
             </div>
         </div>
     </div>
 
-    <div class="container w-75 mt-5 box">
+    <div class="container w-50 mt-3 box">
         <h2 class="mb-5 text-decoration-underline">Register</h2>
         <form action="" class="mt-4">
-
-            <h5 class="text-center">ព័ត៍មានផ្ទាល់ខ្លួន</h5>
+            @csrf
             <div class="row">
                 <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">ឈ្មោះនិស្សិត</span>
+                    <span class="m-0">អត្តលេខនិស្សិត</span>
                 </div>
                 <div class="col-8">
-                    <input type="text" name="" id="" class="form-control" required>
+                    <input type="number" name="" id="" class="form-control" required>
                 </div>
             </div>
 
             <div class="row mt-3">
                 <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">ឈ្មោះនិស្សិតអក្សរឡាតាំង</span>
+                    <span class="m-0">ផ្នែកសិក្សា</span>
                 </div>
                 <div class="col-8">
-                    <input type="text" name="" id="" class="form-control" required>
+                    <select name="" id="" required class="form-select">
+                        <option selected value="">Select Department</option>
+                        <option value="">ព័ត៌មានវិទ្យា</option>
+                        <option value="">រថយន្ត</option>
+                        <option value="">បរិក្ខាត្រជាក់</option>
+                        <option value="">លោហៈ</option>
+                    </select>
                 </div>
             </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">ភេទ</span>
-                </div>
-                <div class="col-8">
-                    <input type="radio" name="gender" id="" class="form-check-input"> Male &nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" name="gender" id="" class="form-check-input"> Female
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">សញ្ជាតិ</span>
-                </div>
-                <div class="col-8">
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">ទីកន្លែងកំណើត</span>
-                </div>
-                <div class="col-8">
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">អាស្រ័យដ្ឋានបច្ចុប្បន្ន</span>
-                </div>
-                <div class="col-8">
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">អ៊ីម៉ែល</span>
-                </div>
-                <div class="col-8">
-                    <input type="email" class="form-control" required>
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">លេខទំនាក់ទំនង</span>
-                </div>
-                <div class="col-8">
-                    <input type="text" class="form-control" required>
-                </div>
-            </div>
-
             <div class="row mt-3">
                 <div class="col-4 d-flex align-items-center">
                     <span class="m-0">ថ្ងៃខែឆ្នាំកំណើត</span>
@@ -118,118 +67,12 @@
                     <input type="date" name="" id="" class="form-control" required>
                 </div>
             </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">មុខរបរ</span>
-                </div>
-                <div class="col-8">
-                    <input type="text" name="" id="" class="form-control" required>
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <span for="ad_image" class="col-4">រូបថតនិស្សិត</span>
-                <div class="col-8">
-                    <input class="form-control" type="file" id="ad_image" name="ad_image">
-                </div>
-            </div>
-            <div class="row mt-3">
-                <label for="image" class="col-4 col-form-label"></label>
-                <img id="showImage" class="card-img-top img-fluid" style="object-fit:cover; width: 160px !important;height:160px !important;" src="../assets/images/no_img.jpg" alt="ad_image">
-            </div>
-
-            <h5 class="text-center mt-5">ឳពុក</h5>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">ឈ្មោះ</span>
-                </div>
-                <div class="col-8">
-                    <input type="text" class="form-control" required>
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">អាយុ</span>
-                </div>
-                <div class="col-8">
-                    <input type="number" class="form-control" required>
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0"></span>
-                </div>
-                <div class="col-8">
-                    <input type="radio" name="gender" id="" class="form-check-input"> ស្លាប់ &nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" name="gender" id="" class="form-check-input"> រស់
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">មុខរបរ</span>
-                </div>
-                <div class="col-8">
-                    <input type="text" class="form-control" required>
-                </div>
-            </div>
-
-            <h5 class="text-center mt-5">ម្តាយ</h5>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">ឈ្មោះ</span>
-                </div>
-                <div class="col-8">
-                    <input type="text" class="form-control" required>
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">អាយុ</span>
-                </div>
-                <div class="col-8">
-                    <input type="number" class="form-control" required>
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0"></span>
-                </div>
-                <div class="col-8">
-                    <input type="radio" name="gender" id="" class="form-check-input"> ស្លាប់ &nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" name="gender" id="" class="form-check-input"> រស់
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-4 d-flex align-items-center">
-                    <span class="m-0">មុខរបរ</span>
-                </div>
-                <div class="col-8">
-                    <input type="text" class="form-control" required>
-                </div>
-            </div>
-
-            
-
-
-
-
-
-
             <div class="row mt-3">
                 <div class="col-4 d-flex align-items-center">
                 </div>
                 <div class="col-8 d-flex justify-content-between">
-                    <button type="submit" class="btn btn-primary">Register</button>
-                    <a href="{{ route("student_login") }}"><button type="button" class="btn btn-danger">Already have account</button></a>
+                    <button type="submit" class="btn btn-success">Register</button>
+                    <a href="{{ route("student_login") }}"><button type="button" class="btn btn-link text-decoration-underline text-primary">Already have account !</button></a>
                 </div>
             </div>
 

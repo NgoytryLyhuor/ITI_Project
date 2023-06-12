@@ -5,7 +5,7 @@
     </div>
     <div class="container-fluid d-flex justify-content-center mt-2">
         <div class="text-center">
-            <h4>វិទ្យាស្ថានបច្ចេកវិទ្យាឧស្សាហកម្ម</h4>
+            <h4>វិទ្យាស្ថានបច្ចេកទេសឧស្សាហកម្ម</h4>
             <h6>Industrial Technical Institute</h6>
         </div>
     </div>
@@ -18,7 +18,7 @@
             <li><a class="text-white" href="{{ route("index") }}">Home</a></li>
             <li><a class="text-white" href="{{ route("about_us") }}">About Us</a></li>
             <li><a class="text-white" href="{{ route("student_login") }}" target="_blank">New Student</a></li>
-            <li><a class="text-white" href="">Academics</a></li>
+            <li><a class="text-white" href="{{ route("department") }}">Academics</a></li>
         </ul>
     </div>
 </div>
