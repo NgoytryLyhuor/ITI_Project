@@ -17,7 +17,7 @@
 
 </head>
 <body>
-
+124567i
     @include('frontend.layout.main_header')
     
     <!-- slide bar  -->
