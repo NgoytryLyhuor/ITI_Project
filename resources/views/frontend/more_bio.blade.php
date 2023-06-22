@@ -7,13 +7,13 @@
     <title>ITI Community</title>
     <link rel="icon" href="{{ asset("assets/logo.png") }}">
     <!-- bootstrap link -->
-    <link rel="stylesheet" href="{{ asset("assets/css/bootstrap.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend\assets/css/bootstrap.css") }}">
     <!-- index css link -->
-    <link rel="stylesheet" href="{{ asset("assets/css/frontend/more_bio.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend\assets/css/frontend/more_bio.css") }}">
     <!-- font link -->
-    <link rel="stylesheet" href="{{ asset("assets/css/font.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend\assets/css/font.css") }}">
     <!-- Icons Css -->
-    <link href="{{ asset("assets/css/icons.min.css") }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset("backend\assets/css/icons.min.css") }}" rel="stylesheet" type="text/css" />
 </head>
 <body>
 

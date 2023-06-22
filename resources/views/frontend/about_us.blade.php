@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <!-- about us css link -->
-    <link rel="stylesheet" href="{{ asset("assets/css/frontend/about_us.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend/assets/css/frontend/about_us.css") }}">
     <!-- bootstrap link -->
-    <link rel="stylesheet" href="{{ asset("assets/css/bootstrap.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend/assets/css/bootstrap.css") }}">
     <!-- font link -->
-    <link rel="stylesheet" href="{{ asset("assets/css/font.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend/assets/css/font.css") }}">
     <!-- Icons Css -->
     <link href="{{ asset("assets/css/icons.min.css") }}" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.8.0/leaflet.css" />
-    <link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel='stylesheet' />
 </head>
 <body>
     
@@ -137,13 +136,13 @@
     @include("frontend.layout.footer")
 </body>
 </html>
-
 <!-- JAVASCRIPT -->
-<script src="{{ asset("assets/libs/node-waves/waves.min.js") }}"></script>
-<script src="{{ asset("assets/js/jquery.js") }}"></script>
+<script src="{{ asset("backend/assets/libs/node-waves/waves.min.js") }}"></script>
+<script src="{{ asset("backend/assets/js/jquery.js") }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.8.0/leaflet.js"></script>
 <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
 <script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.17/leaflet-maplibre-gl.js"></script>
+<script src="{{ asset("assets/js/pages/remix-icons-list.js") }}"></script>
 
 
 <script>

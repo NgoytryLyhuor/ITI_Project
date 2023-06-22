@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\StudenrController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +24,12 @@ Route::controller(FrontendController::class)->group(function(){
     Route::get('/student/register','student_register')->name('student_register');
     Route::get('/about_us','about_us')->name('about_us');
     Route::get('/department','department')->name('department');
+});
 
+Route::controller(AdminController::class)->group(function(){
+    Route::get('/dashboard','dashboard')->name('dashboard');
+});
 
+Route::controller(StudenrController::class)->group(function(){
+    Route::get('/dashboard/student','DashboardStudent')->name(' dashboardstudent');
 });

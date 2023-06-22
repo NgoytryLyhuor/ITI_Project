@@ -8,11 +8,11 @@
     <title>Student Information</title>
 
     <!-- bootstrap link -->
-    <link rel="stylesheet" href="{{ asset("/assets/css/bootstrap.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend/assets/css/bootstrap.css") }}">
     <!-- index css link -->
-    <link rel="stylesheet" href="{{ asset("/assets/css/frontend/student_login.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend/assets/css/frontend/student_login.css") }}">
     <!-- font link -->
-    <link rel="stylesheet" href="{{ asset("/assets/css/font.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend/assets/css/font.css") }}">
     <!-- Icons Css -->
     <link href="{{ asset("/assets/css/icons.min.css") }}" rel="stylesheet" type="text/css" />
 
@@ -22,7 +22,7 @@
     <!-- header -->
     <div class="container header w-75 mt-2">
         <div class="container-fluid d-flex justify-content-center">
-            <img src="{{ asset("/assets/logo.png") }}" width="110" height="110" alt="">
+            <img src="{{ asset("backend/assets/logo.png") }}" width="110" height="110" alt="">
         </div>
         <div class="container-fluid d-flex justify-content-center mt-2">
             <div class="text-center">

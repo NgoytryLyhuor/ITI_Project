@@ -1,7 +1,7 @@
 <!-- header -->
 <div class="container header w-75 mt-2">
     <div class="container-fluid d-flex justify-content-center">
-        <img src="../assets/logo.png" width="110" height="110" alt="">
+        <img src="../backend/assets/logo.png" width="110" height="110" alt="">
     </div>
     <div class="container-fluid d-flex justify-content-center mt-2">
         <div class="text-center">

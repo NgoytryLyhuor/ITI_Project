@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Industrial Technical Institute</title>
-    <link rel="icon" href="{{ asset("/assets/logo.png") }}">
+    <link rel="icon" href="{{ asset("backend/assets/logo.png") }}">
     <!-- bootstrap link -->
-    <link rel="stylesheet" href="{{ asset("assets/css/bootstrap.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend\assets/css/bootstrap.css") }}">
     <!-- index css link -->
-    <link rel="stylesheet" href="{{ asset("assets/css/frontend/department.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend\assets/css/frontend/department.css") }}">
     <!-- font link -->
-    <link rel="stylesheet" href="{{ asset("assets/css/font.css") }}">
+    <link rel="stylesheet" href="{{ asset("backend\assets/css/font.css") }}">
     <!-- Icons Css -->
     <link href="{{ asset("assets/css/icons.min.css") }}" rel="stylesheet" type="text/css" />
 
